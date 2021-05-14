@@ -21,7 +21,28 @@
 .ui-menu-color-download {
     background-color: #525252;
 }
+
+/*--------------------------------------------------- special paddings/margin/text*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa
+}
+
 /*---------------------------------------------------------heading*/
+
 header {
     margin: 0;
 }
@@ -84,7 +105,7 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     height: 120px;
 }
 
@@ -106,9 +127,17 @@ header {
     letter-spacing: 2px;
 }
 
-/*---------------------------------------------------------hover.css*/
+/*--------------------------------------------------------- Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+
+/*--------------------------------------------------------- Footer*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
 }
